@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <nav id="navbar">
+      <header>
+        <h1 id="documentation">Python Documentation</h1></header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction_to_Python">Introduction to Python</a></li>
+        <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+        <li><a class="nav-link" href="#If_Else">If Else</a></li>
+        <li><a class="nav-link" href="#While_Loop">While Loop</a></li>
+        <li><a class="nav-link" href="#For_Loop">For Loop</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction_to_Python">
+        <header>
+          <h1>Introduction to Python</h1>
+        </header>
+        <p><code>Python</code> is a programming language that is high level and object-oriented. Python has packages and modules that can be used by a programmer for various things. Some of the most common uses are to write scripts, data cleansing, and sometimes even gaming!</p>
+        <p>There may be people who believe that it is a hard language to learn, but its actually simple. All it takes is time and dedication. Python is the programming language that is closest to the english language, but instead of speaking to a human, you are speaking to a computer.</p>
+        
+        <p>Here are some other uses for python:</p>
+          <ul>
+            <li>AI and Machine learning</li>
+            <li>Web Development</li>
+            <li>Language Development</li>
+        </ul>
+      </section>
+      
+      <section class="main-section" id="Data_Types">
+        <header>
+          <h1>Data Types</h1>
+        </header>
+        <p>Programming languages have something called a <code>data type</code>. Simply put data types are attributes of data that tells the computer how programmers will be using the data. In Python, there are different types of data: </p>
+          <ul>
+            <li>Text</li>
+            <li>Numeric</li>
+            <li>Sequence</li>
+            <li>Boolean Types</li>
+          </ul>
+       <p>There are still a few more than can be used for more in-depth purposes. The ones above are some of the data types that are the most common and will be explained in further detail.</p>
+        <p>Text data types are usually identified by <b>str</b> and it holds just plain regular text. An example is below:</p>
+        <div class="text-box">
+          <p>employee = "John Doe"</p>
+        </div>
+   <p>In the example above, employee is the attribute while "John Doe" is the data we want to attach to that attribute. "John Doe" in this instance is considered a string because it is just text. </p>
+      
+      <section class="main-section" id="If_Else">
+        <header>
+          <h1>If Else</h1></header>
+          <p><code>If and Else</code> in python is a conditional statement that is used to tell a computer "if this does not equal that, then display this". It's better to show an example than try to explain in.</p>
+          <div class="text-box">
+            <p>a = 3
+              if a = 3:
+                print("great job")
+              else:
+                print("uh oh, something went wrong")
+            </p>
+          </div>
+          <p> In the above example, we made a = 3, and we told the computer if this conditional statement is true, then display "great job", otherwise, please display "uh oh, something went wrong".</p>
+        
+      </section>
+      
+      <section class="main-section" id="While_Loop">
+        <header>
+          <h1>While Loop</h1></header>
+          <p>A <code>while loop</code> is also a conditional statement, however, it differs from an If-Else statement in the way that the code executes as long as the condition is true. A while loop can be infinite if there is no statement that will break it. What is meant by infinite is that if the condition keeps on going true, then you will see code being executed over and over again and the only way to stop it while its occurring would be to press <code>CTRL + C</code>.</p>
+          <p>An example of the <code>while loop</code> can be found <a href="https://www.w3schools.com/python/python_while_loops.asp" target="_blank">here</a></p>
+        
+      </section>
+     
+      <section class="main-section" id="For_Loop">
+        <header>
+          <h1>For Loop</h1></header>
+          <p>A <code>For Loop</code> is used to iterate through a sequence. A sequence can be a list, tuple, a dictionary, or even a string. With the <code>for loop</code>, we can execute a set of statement, once for each item in a list, tuple, or string.</p>
+          <p>To read more about it, click this link: <a href="https://www.w3schools.com/python/python_for_loops.asp">For Loops</a></p>
+        
+      </section>
+      
+    </main>
+  </body>
+</html>
